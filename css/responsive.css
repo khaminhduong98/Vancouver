@@ -1,0 +1,382 @@
+/* Extra large screen */
+@media (max-width: 1700px) {
+    button.navbar-toggle {
+        display: none;
+    }
+
+
+}
+
+/* Large screen */
+@media (max-width: 992px) {
+    /* HOME */
+    .style-banner {
+        padding: 9.5em 7em 13em 7em;
+    }
+
+    .style-banner p {
+        font-size: 0.9em;
+        letter-spacing: 0.2em;
+    }
+
+    /* ABOUT */
+    .about-wrapper > div.container {
+        padding-top: 3rem;
+    }
+
+    .about-wrapper h6 {
+        margin-bottom: 1.1em;
+    }
+
+    p.main_p {
+        font-size: 1.2em;
+    }
+
+    .about-wrapper h2 {
+        font-size: 1.7em;
+    }
+
+    p.main_p2 {
+        font-size: 0.9em;
+        font-weight: 500;
+        width: 100%;
+        margin-left: 0.5em;
+    }
+
+    #btn-proceed {
+        font-size: 0.9em;
+    }
+
+    /* SERVICES */
+    .service-wrapper > div.container {
+        padding-top: 3rem;
+    }
+
+    .service-wrapper h6 {
+        margin-bottom: 1.2em;
+    }
+
+    .service-wrapper h2 {
+        font-weight: 700;
+        font-size: 1.5em;
+        padding-bottom: 0.8em;
+    }
+
+    p.main_p3 {
+        font-size: 1.1em;
+        letter-spacing: 0.06cm;
+    }
+
+    .services {
+        width: 75%;
+    }
+
+    .service-content h2 {
+        font-size: 1em;
+        margin-bottom: 0.3em;
+    }
+
+    .service-content p {
+        font-size: 0.8em;
+    }
+
+    .service_btns {
+        margin-top: 1.5em;
+        margin-bottom: 0.7em;
+    }
+
+    #btn-start, #btn-info {
+        width: 15em;
+        padding: 13px 40px;
+    }
+
+    /* NEWS */
+    .news-wrapper > div.container {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    .news-wrapper h6 {
+        margin-bottom: 1em;
+    }
+
+    .news-wrapper h4 {
+        font-size: 1.3em;
+        margin-top: 1em;
+    }
+
+    .news-wrapper p {
+        font-weight: 500;
+        width: 100%;
+        padding-left: 5px;
+        line-height: 25px;
+    }
+
+    .btn-learn {
+        width: 95%;
+    }
+
+    /* CONTACT */
+    .contact-wrapper > div.container {
+        padding-top: 3.5rem;
+    }
+
+    .contact-wrapper h6 {
+        margin-bottom: 1em;
+    }
+
+    .contact-wrapper h3 {
+        margin-top: 1em;
+        font-size: 1.5em;
+    }
+
+    .main_p4 {
+        margin-top: 2em;
+        font-size: 1.1em;
+        letter-spacing: 0.1em;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .grid_left input[type="submit"], .grid_left input[type="reset"] {
+        margin-bottom: 4em;
+        font-size: 13px;
+        font-weight: 800;
+    }
+
+    .copy-right {
+        padding-bottom: 4em;
+    }
+
+    .copy-right p {
+        font-size: 0.8em;
+        width: 85%;
+        padding-left: 9em;
+    }
+}
+
+/* Medium screen */
+@media (max-width: 768px) {
+    /* HOME */
+    button.navbar-toggle {
+        display: flex;
+        background: #fff;
+        outline: none;
+        border: none;
+        width: 5em;
+        height: 2.5em;
+        font-size: 0.8em;
+        font-weight: 600;
+        text-align: center;
+        line-height: 2.5em;
+        top: 15px;
+        right: 3px;
+        position: absolute;
+        padding-left: 12px;
+    }
+
+    #navbarSupportedContent {
+        position: absolute;
+        background: black;
+        opacity: 0.7;
+        width: 100%;
+        top: 3em;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    nav a {
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .style-banner {
+        padding: 9.5em 6em 12em 6em;
+    }
+
+    .style-banner p {
+        width: 100%;
+        padding-top: 0.5em;
+        padding-left: 3em;
+        font-size: 0.9em;
+    }
+
+    /* ABOUT */
+    .about-wrapper h2 {
+        padding: 1em 2em 1em 2em;
+        line-height: 1.5em;
+    }
+
+    /* NEWS */
+    .btn-learn {
+        width: 40%;
+    }
+
+    /* CONTACT */
+    .copy-right p {
+        font-size: 0.8em;
+        width: 90%;
+        padding-left: 6em;
+    }
+}
+
+/* Small screen */
+@media (max-width: 568px) {
+    /* HOME */
+    .header-out {
+        height: 26em;
+    }
+
+    .style-banner {
+        padding-top: 7em;
+    }
+
+    .style-banner p {
+        padding-left: 1.5em;
+        width: 95%;
+    }
+
+    /* ABOUT */
+    .about-wrapper h6 {
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+    }
+
+    p.main_p {
+        font-size: 1em;
+    }
+
+    .about-wrapper h2 {
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+
+    /* SERVICES */
+    .service-wrapper h6 {
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+    }
+
+    .service-wrapper h2 {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    p.main_p3 {
+        font-size: 0.9em;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    .service-box {
+        margin-bottom: 0;
+        padding: 0 1em 0 1em;
+    }
+
+    .service-content h2 {
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+
+    .service-content p {
+        font-size: 14px;
+    }
+
+    .service_btns {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    /* NEWS */
+    .news-wrapper > div.container {
+        padding-top: 3rem;
+    }
+
+    .news-wrapper h6 {
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+    }
+
+    /* CONTACT */
+    .contact-wrapper > div.container {
+        padding-top: 3rem;
+    }
+
+    .contact-wrapper h6 {
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+    }
+
+    .contact-wrapper h3 {
+        font-size: 1.4em;
+    }
+
+    .main_p4 {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .contact-content {
+        margin-top: 2em;
+        padding-top: 2em;
+        padding-bottom: 1.5em;
+    }
+
+    .info-content h6 {
+        font-size: 1em;
+    }
+
+    .copy-right {
+        padding-bottom: 3em;
+    }
+
+    .copy-right p {
+        font-size: 0.9em;
+    }
+}
+
+    /* Extra small screen */
+@media (max-width: 480px) {
+    /* SERVICES */
+    #btn-start, #btn-info {
+        font-size: 0.9em;
+        height: 3.5em;
+        width: 14em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .service_btns {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    /* NEWS */
+    .btn-learn {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* CONTACT */
+
+    /*.contact-wrapper > div.container {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
+
+    .social-box {
+        margin-top: 3em;
+    }
+
+    .info-content {
+        padding-left: 3.5em;
+    }
+
+    .copy-right p {
+        font-size: 0.8em;
+        width: 100%;
+        padding-left: 2em;
+    }
+}
